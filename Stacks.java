@@ -17,10 +17,6 @@ public class Stacks {
 	}
 	
 	public void pop() {
-		
-		if (list.size() == 0) {
-			throw new EmptyStackException();
-		}
 		 list.remove(list.size() - 1);
 		System.out.println(list);
 	}
