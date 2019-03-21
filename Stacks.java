@@ -42,7 +42,7 @@ public class Stacks {
 		}**/
 
 	}
-	/**
+	
 	public void peek() {
 		System.out.println("The number at the top of the list is: " + list.get(list.size()-1));
 	}
@@ -51,5 +51,5 @@ public class Stacks {
 	public void clear() {
 		list.clear();
 		System.out.println("Whats in the list after clearing: " + list);
-	}**/
+	}
 }
