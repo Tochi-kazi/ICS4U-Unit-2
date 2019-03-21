@@ -13,8 +13,8 @@ public class MyStack {
 		Stacks stack = new Stacks();
 		
 		stack.push(14);
-		//stack.push(12);
-		//stack.push(13);
+		stack.push(12);
+		stack.push(13);
 		//stack.push(15);
 		//stack.push(89);
 		
@@ -23,7 +23,7 @@ public class MyStack {
 		stack.pop();
 		
 		
-		//stack.peek();
+		stack.peek();
 		
 		
 		//stack.clear();
