@@ -1,6 +1,6 @@
 /**
  * Name: Tochi Iroakazi
- * Class: Unit 2-02
+ * Class: Unit 2-03
  * Definition: Pops object from and Arraylist
  */
 
