@@ -8,7 +8,8 @@ import java.util.*;
 public class Stacks {
 	
 	//Creating an arraylist that stores Integers
-	ArrayList<Integer> list = new ArrayList<Integer> (); 
+	 ArrayList<Integer> list = new ArrayList<Integer> (); 
+	int size = list.size() - 1;
 
 	public void push(int userinput) {
 		list.add(userinput);
@@ -18,16 +19,15 @@ public class Stacks {
 	
 	public void pop() {
 		//list.remove(list.size() - 1);
-		//System.out.println(list);
-		if (list.size() == 0) {
-			 throw new EmptyStackException();
-		}else {
-			list.remove(list.size() - 1);
+		//System.out.println(list)
+		try {
+			list.remove(size);
 			System.out.println("After poping" + list);
-			
+		}catch (Exception e) {
+			//e.printStackTrace();
+			System.out.println("The arraylist is empty");
 		}
-		//list.remove(list.size() - 1);
-		//System.out.println(list);
+
 	}
 	
 	public void peek() {
