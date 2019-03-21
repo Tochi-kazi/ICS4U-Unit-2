@@ -18,24 +18,38 @@ public class Stacks {
 	}
 	
 	public void pop() {
-		//list.remove(list.size() - 1);
-		//System.out.println(list)
+		//System.out.println(list);
+		//System.out.println("After poping" + list);
+		if ( list.size() == 0) {
+			try {
+				list.remove(size);
+				//System.out.println("After poping" + list);
+			}catch (Exception e) {
+				//e.printStackTrace();
+				System.out.println("The arraylist is empty");
+			}
+		}else {
+			list.remove(list.size() - 1);
+			System.out.println("After poping" + list);
+		}
+		/**
 		try {
 			list.remove(size);
 			System.out.println("After poping" + list);
 		}catch (Exception e) {
 			//e.printStackTrace();
 			System.out.println("The arraylist is empty");
-		}
+		}**/
 
 	}
-	
+	/**
 	public void peek() {
 		System.out.println("The number at the top of the list is: " + list.get(list.size()-1));
 	}
 	
+	
 	public void clear() {
 		list.clear();
 		System.out.println("Whats in the list after clearing: " + list);
-	}
+	}**/
 }
