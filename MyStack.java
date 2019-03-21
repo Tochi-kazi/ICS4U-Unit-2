@@ -13,19 +13,20 @@ public class MyStack {
 		Stacks stack = new Stacks();
 		
 		stack.push(14);
-		stack.push(12);
-		stack.push(13);
-		stack.push(15);
-		stack.push(89);
+		//stack.push(12);
+		//stack.push(13);
+		//stack.push(15);
+		//stack.push(89);
 		
 		stack.pop();
 		stack.pop();
+		
 		
 		stack.peek();
+		
 		
 		stack.clear();
 
 	}
 
 }
-
