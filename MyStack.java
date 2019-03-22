@@ -1,6 +1,6 @@
 /**
  * Name: Tochi Iroakazi
- * Class: Unit 2-02
+ * Class: Unit 2-04
  * Definition: sends commands to the Stacks program.
  */
 
